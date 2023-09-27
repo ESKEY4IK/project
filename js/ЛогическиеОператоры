@@ -1,0 +1,46 @@
+"use strict";
+
+// const hamburger = 5;
+// const fries = 0;
+
+// if (hamburger && fries) {
+//     console.log("I'm full!");
+// }
+
+// console.log((hamburger && fries));
+
+// const hamburger = 3;
+// const fries = 1;
+// const cola = 1;
+
+// console.log(hamburger === 3 && cola && fries); // 1
+
+// console.log(1 && 0); // 0
+// console.log(1 && 5); // 5
+// console.log(null && 5); // null
+// console.log(0 && "skdfsfn"); // 0
+
+// if (hamburger === 3 && cola === 1 && fries) {
+//     console.log("Everyone's full!");
+// } else {
+//     console.log("We're leaving!");
+// }
+
+// console.log((hamburger && fries));
+
+const hamburger = 3;
+const fries = 3;
+const cola = 0;
+const nuggets = 2;
+
+if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
+    console.log("Everyone's satisfied!");
+} else {
+    console.log("We're leaving!");
+}
+
+console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets);
+
+let johnReport, alexReport, samReport, mariaReport = "done";
+
+console.log(johnReport || alexReport || samReport || mariaReport);
