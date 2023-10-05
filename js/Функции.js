@@ -10,12 +10,12 @@ function showFirstMessage(text) {
 showFirstMessage("Hello World!");
 console.log(num);
 
-function calc(a, b) {
+function cal(a, b) {
     return (a + b);
 }
 
-console.log(calc(4, 3));
-console.log(calc(5, 6));
+console.log(cal(4, 3));
+console.log(cal(5, 6));
 
 function ret() {
     let num = 50;
