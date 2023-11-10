@@ -51,3 +51,4 @@ options.makeTest();
 // Деструктуризация объекта
 const { border, bg } = options.colors;
 console.log(border);
+console.log(bg);
